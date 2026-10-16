@@ -263,6 +263,117 @@ p  { color: var(--text-sub); line-height: 1.65; }
   transform: translateY(-1px);
 }
 
+/* ── Reviewer Selector ── */
+.reviewer-selector-wrap {
+  padding: 1rem 1rem 0.25rem 1rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.reviewer-selector-title {
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.reviewer-selector-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem;
+}
+.reviewer-tab-btn {
+  background: var(--card-bg);
+  border: 2px solid var(--card-brd);
+  border-radius: var(--radius-lg);
+  padding: 0.75rem 0.85rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all var(--transition);
+  color: var(--text-main);
+  font-family: var(--font-main);
+  position: relative;
+  overflow: hidden;
+}
+.reviewer-tab-btn:hover {
+  border-color: var(--gold-dark);
+  background: var(--navy-3);
+}
+.reviewer-tab-btn.active {
+  border-color: var(--gold);
+  background: linear-gradient(145deg, rgba(201, 168, 76, 0.15), rgba(26, 45, 66, 0.95));
+  box-shadow: 0 4px 16px rgba(201, 168, 76, 0.2);
+}
+.rev-tab-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+.rev-tag {
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0.12rem 0.45rem;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+.rev-tag.rotc {
+  background: rgba(34, 197, 94, 0.2);
+  color: #4ade80;
+  border: 1px solid rgba(34, 197, 94, 0.35);
+}
+.rev-tag.afp {
+  background: rgba(201, 168, 76, 0.2);
+  color: var(--gold-light);
+  border: 1px solid rgba(201, 168, 76, 0.4);
+}
+.rev-status-pill {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  background: var(--gold);
+  color: var(--navy);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.reviewer-tab-btn.active .rev-status-pill {
+  opacity: 1;
+}
+.rev-tab-name {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 0.15rem;
+}
+.reviewer-tab-btn.active .rev-tab-name {
+  color: var(--gold-light);
+}
+.rev-tab-desc {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
+.q-diagram-wrap {
+  margin: 0.85rem 0;
+  text-align: center;
+  background: #ffffff;
+  border-radius: var(--radius);
+  padding: 0.5rem;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  border: 1.5px solid var(--gold-dark);
+}
+.q-diagram-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
 /* Progress dashboard */
 .progress-dashboard {
   display: grid;
@@ -477,6 +588,7 @@ p  { color: var(--text-sub); line-height: 1.65; }
   border-radius: var(--radius);
   padding: 0.75rem;
   line-height: 1.6;
+  white-space: pre-line;
 }
 
 /* Controls row */

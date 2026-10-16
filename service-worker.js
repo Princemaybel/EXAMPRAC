@@ -3,7 +3,7 @@
  * Caches all app shell files on install; serves from cache first.
  */
 
-const CACHE_NAME = 'examprac-v2';
+const CACHE_NAME = 'examprac-v3';
 
 const PRECACHE = [
   './',
@@ -18,6 +18,8 @@ const PRECACHE = [
   './js/confetti.js',
   './data/questions.json',
   './data/questions_data.js',
+  './data/afpsat_questions.json',
+  './data/afpsat_questions_data.js',
   './manifest.webmanifest',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',

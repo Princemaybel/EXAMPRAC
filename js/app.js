@@ -7,7 +7,8 @@
  */
 
 import { loadQuestionBank, getAllQuestions, getQuestionsByCategory, getCategories,
-         buildSessionQuestions, isCorrect, getCorrectText, shuffle } from './questions.js';
+         buildSessionQuestions, isCorrect, getCorrectText, shuffle,
+         getActiveReviewer, setActiveReviewer } from './questions.js';
 import { openDB, recordAnswer, getIncorrectQuestions, getAllQuestionStats,
          getAllSessions, saveSession, exportProgress, importProgress,
          resetAllProgress, getAppStat, setAppStat, incrementAppStat,
@@ -83,16 +84,39 @@ function hideModal() {
 ────────────────────────────────────────────────────────────── */
 async function renderHome() {
   showScreen('screen-home');
-  // Stats
-  const [answered, correct, incorrect, streak] = await Promise.all([
-    getAppStat('totalAnswered', 0),
-    getAppStat('totalCorrect',  0),
-    getAppStat('totalIncorrect',0),
-    getAppStat('streak',        0),
-  ]);
-  const acc = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+  const rev = getActiveReviewer();
+  const isAfpsat = (rev === 'afpsat');
+
+  // Update tabs UI
+  document.getElementById('tab-rev-paarcqe')?.classList.toggle('active', !isAfpsat);
+  document.getElementById('tab-rev-afpsat')?.classList.toggle('active', isAfpsat);
+
+  // Update header and hero text
+  const subTitle = isAfpsat ? 'AFPSAT Reviewer' : 'PAARCQE Reviewer';
+  const tagline = isAfpsat ? 'AFPSAT Complete Reviewer 2026' : 'PAARCQE Offline Practice Reviewer 2026';
+  const pracDesc = isAfpsat ? '100 Qs: Abstract, Numerical, Verbal' : '100 questions, steady order';
+  const catDesc = isAfpsat ? '3 Chapters' : '5 Subjects';
+  
+  const headerSub = document.querySelector('.header-subtitle');
+  if (headerSub) headerSub.textContent = subTitle;
+  const heroTag = document.querySelector('.home-hero .tagline');
+  if (heroTag) heroTag.textContent = tagline;
+  const pracSub = document.getElementById('home-prac-sub');
+  if (pracSub) pracSub.textContent = pracDesc;
+  const catSub = document.getElementById('home-cat-sub');
+  if (catSub) catSub.textContent = catDesc;
+
+  // Calculate stats scoped to active reviewer
+  const allQs = getAllQuestions();
+  const qidSet = new Set(allQs.map(q => q.id));
   const qstats = await getAllQuestionStats();
-  const mastered = qstats.filter(s => s.mastery === 'mastered').length;
+  const activeStats = qstats.filter(s => qidSet.has(s.qid));
+
+  const answered = activeStats.reduce((sum, s) => sum + (s.attempts || 0), 0);
+  const correct = activeStats.reduce((sum, s) => sum + (s.correct || 0), 0);
+  const streak = await getAppStat('streak', 0);
+  const mastered = activeStats.filter(s => s.mastery === 'mastered').length;
+  const acc = answered > 0 ? Math.round((correct / answered) * 100) : 0;
 
   setText('stat-answered',   answered);
   setText('stat-accuracy',   acc + '%');
@@ -102,6 +126,16 @@ async function renderHome() {
   // Offline indicator
   updateOfflineBadge();
 }
+
+window.EXAMPRAC = window.EXAMPRAC || {};
+
+EXAMPRAC.switchReviewer = async function(revId) {
+  setActiveReviewer(revId);
+  await loadQuestionBank(revId);
+  await renderHome();
+  playTap();
+  toast(revId === 'afpsat' ? '⚔️ Switched to AFPSAT 2026 Reviewer' : '🇵🇭 Switched to PAARCQE 2026 Reviewer', 'success', 2000);
+};
 
 function updateOfflineBadge() {
   const badge = document.getElementById('offline-badge');
@@ -150,7 +184,10 @@ function renderPracticeQuestion() {
 
   setText('prac-q-num', `Q${idx + 1} of ${tot}`);
   setText('prac-category', q.category);
-  setText('prac-question', q.question);
+  
+  const questionEl = document.getElementById('prac-question');
+  const diagramHtml = q.image ? `<div class="q-diagram-wrap"><img src="${q.image}" class="q-diagram-img" alt="Question Diagram"></div>` : '';
+  questionEl.innerHTML = `<span style="display:block;white-space:pre-line;">${escHtml(q.question)}</span>${diagramHtml}`;
 
   // Progress bar
   const pct = ((idx) / tot) * 100;
@@ -158,10 +195,10 @@ function renderPracticeQuestion() {
 
   // Choices
   const choicesEl = document.getElementById('prac-choices');
-  const letters   = ['A', 'B', 'C', 'D'];
+  const letters   = ['A', 'B', 'C', 'D', 'E'];
   choicesEl.innerHTML = q.choices.map((ch, i) => `
     <button class="choice-btn" data-id="${ch.id}" onclick="EXAMPRAC.selectChoice('${ch.id}')">
-      <span class="choice-letter">${letters[i]}</span>
+      <span class="choice-letter">${letters[i] || (i + 1)}</span>
       <span>${escHtml(ch.text)}</span>
     </button>
   `).join('');
@@ -566,7 +603,10 @@ function renderExamQuestion() {
 
   setText('exam-q-num',      `Q${idx + 1} of ${tot}`);
   setText('exam-category',   q.category);
-  setText('exam-question',   q.question);
+  
+  const questionEl = document.getElementById('exam-question');
+  const diagramHtml = q.image ? `<div class="q-diagram-wrap"><img src="${q.image}" class="q-diagram-img" alt="Question Diagram"></div>` : '';
+  questionEl.innerHTML = `<span style="display:block;white-space:pre-line;">${escHtml(q.question)}</span>${diagramHtml}`;
 
   const pct = (idx / tot) * 100;
   document.getElementById('exam-progress-fill').style.width = pct + '%';
@@ -577,12 +617,12 @@ function renderExamQuestion() {
   flagBtn.textContent = st.flagged.has(idx) ? '🚩 Flagged' : '🏳 Flag';
 
   const choicesEl = document.getElementById('exam-choices');
-  const letters   = ['A', 'B', 'C', 'D'];
+  const letters   = ['A', 'B', 'C', 'D', 'E'];
   const selected  = st.answers[q.id];
   choicesEl.innerHTML = q.choices.map((ch, i) => `
     <button class="choice-btn ${selected === ch.id ? 'selected' : ''}"
             data-id="${ch.id}" onclick="EXAMPRAC.examSelect('${ch.id}')">
-      <span class="choice-letter">${letters[i]}</span>
+      <span class="choice-letter">${letters[i] || (i + 1)}</span>
       <span>${escHtml(ch.text)}</span>
     </button>
   `).join('');
