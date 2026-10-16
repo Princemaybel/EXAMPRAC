@@ -27,6 +27,7 @@ const itemsToCopy = [
   'manifest.webmanifest',
   'service-worker.js',
   'assets',
+  'abstract',
   'css',
   'js',
   'data',

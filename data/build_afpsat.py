@@ -132,7 +132,7 @@ def build_afpsat():
             "qnum": qnum,
             "category": "Abstract Reasoning",
             "question": f"{qnum}. {text}",
-            "image": f"assets/afpsat/q{qnum}.png",
+            "image": f"abstract/{qnum}.png",
             "choices": choices,
             "correctAnswer": correct_id,
             "explanation": exp

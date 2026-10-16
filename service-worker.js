@@ -3,7 +3,7 @@
  * Caches all app shell files on install; serves from cache first.
  */
 
-const CACHE_NAME = 'examprac-v3';
+const CACHE_NAME = 'examprac-v4';
 
 const PRECACHE = [
   './',

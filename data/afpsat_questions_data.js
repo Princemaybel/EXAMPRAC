@@ -8,7 +8,7 @@ export const AFPSAT_BANK = {
       "qnum": 1,
       "category": "Abstract Reasoning",
       "question": "1. Which figure completes the series?",
-      "image": "assets/afpsat/q1.png",
+      "image": "abstract/1.png",
       "choices": [
         {
           "id": "afpsat_q1_a",
@@ -35,7 +35,7 @@ export const AFPSAT_BANK = {
       "qnum": 2,
       "category": "Abstract Reasoning",
       "question": "2. Which figure completes the series?",
-      "image": "assets/afpsat/q2.png",
+      "image": "abstract/2.png",
       "choices": [
         {
           "id": "afpsat_q2_a",
@@ -62,7 +62,7 @@ export const AFPSAT_BANK = {
       "qnum": 3,
       "category": "Abstract Reasoning",
       "question": "3. Which figure completes the series?",
-      "image": "assets/afpsat/q3.png",
+      "image": "abstract/3.png",
       "choices": [
         {
           "id": "afpsat_q3_a",
@@ -89,7 +89,7 @@ export const AFPSAT_BANK = {
       "qnum": 4,
       "category": "Abstract Reasoning",
       "question": "4. Which figure completes the series?",
-      "image": "assets/afpsat/q4.png",
+      "image": "abstract/4.png",
       "choices": [
         {
           "id": "afpsat_q4_a",
@@ -116,7 +116,7 @@ export const AFPSAT_BANK = {
       "qnum": 5,
       "category": "Abstract Reasoning",
       "question": "5. Which figure completes the series?",
-      "image": "assets/afpsat/q5.png",
+      "image": "abstract/5.png",
       "choices": [
         {
           "id": "afpsat_q5_a",
@@ -143,7 +143,7 @@ export const AFPSAT_BANK = {
       "qnum": 6,
       "category": "Abstract Reasoning",
       "question": "6. Which figure completes the series?",
-      "image": "assets/afpsat/q6.png",
+      "image": "abstract/6.png",
       "choices": [
         {
           "id": "afpsat_q6_a",
@@ -170,7 +170,7 @@ export const AFPSAT_BANK = {
       "qnum": 7,
       "category": "Abstract Reasoning",
       "question": "7. Which figure completes the series?",
-      "image": "assets/afpsat/q7.png",
+      "image": "abstract/7.png",
       "choices": [
         {
           "id": "afpsat_q7_a",
@@ -197,7 +197,7 @@ export const AFPSAT_BANK = {
       "qnum": 8,
       "category": "Abstract Reasoning",
       "question": "8. Which figure completes the series?",
-      "image": "assets/afpsat/q8.png",
+      "image": "abstract/8.png",
       "choices": [
         {
           "id": "afpsat_q8_a",
@@ -224,7 +224,7 @@ export const AFPSAT_BANK = {
       "qnum": 9,
       "category": "Abstract Reasoning",
       "question": "9. Which figure completes the series?",
-      "image": "assets/afpsat/q9.png",
+      "image": "abstract/9.png",
       "choices": [
         {
           "id": "afpsat_q9_a",
@@ -251,7 +251,7 @@ export const AFPSAT_BANK = {
       "qnum": 10,
       "category": "Abstract Reasoning",
       "question": "10. Which figure completes the series?",
-      "image": "assets/afpsat/q10.png",
+      "image": "abstract/10.png",
       "choices": [
         {
           "id": "afpsat_q10_a",
@@ -278,7 +278,7 @@ export const AFPSAT_BANK = {
       "qnum": 11,
       "category": "Abstract Reasoning",
       "question": "11. Which figure completes the statement?",
-      "image": "assets/afpsat/q11.png",
+      "image": "abstract/11.png",
       "choices": [
         {
           "id": "afpsat_q11_a",
@@ -305,7 +305,7 @@ export const AFPSAT_BANK = {
       "qnum": 12,
       "category": "Abstract Reasoning",
       "question": "12. Which figure completes the statement?",
-      "image": "assets/afpsat/q12.png",
+      "image": "abstract/12.png",
       "choices": [
         {
           "id": "afpsat_q12_a",
@@ -332,7 +332,7 @@ export const AFPSAT_BANK = {
       "qnum": 13,
       "category": "Abstract Reasoning",
       "question": "13. Which figure completes the statement?",
-      "image": "assets/afpsat/q13.png",
+      "image": "abstract/13.png",
       "choices": [
         {
           "id": "afpsat_q13_a",
@@ -359,7 +359,7 @@ export const AFPSAT_BANK = {
       "qnum": 14,
       "category": "Abstract Reasoning",
       "question": "14. Which figure completes the statement?",
-      "image": "assets/afpsat/q14.png",
+      "image": "abstract/14.png",
       "choices": [
         {
           "id": "afpsat_q14_a",
@@ -386,7 +386,7 @@ export const AFPSAT_BANK = {
       "qnum": 15,
       "category": "Abstract Reasoning",
       "question": "15. Which figure completes the statement?",
-      "image": "assets/afpsat/q15.png",
+      "image": "abstract/15.png",
       "choices": [
         {
           "id": "afpsat_q15_a",
@@ -413,7 +413,7 @@ export const AFPSAT_BANK = {
       "qnum": 16,
       "category": "Abstract Reasoning",
       "question": "16. Which figure completes the statement?",
-      "image": "assets/afpsat/q16.png",
+      "image": "abstract/16.png",
       "choices": [
         {
           "id": "afpsat_q16_a",
@@ -440,7 +440,7 @@ export const AFPSAT_BANK = {
       "qnum": 17,
       "category": "Abstract Reasoning",
       "question": "17. Which figure completes the statement?",
-      "image": "assets/afpsat/q17.png",
+      "image": "abstract/17.png",
       "choices": [
         {
           "id": "afpsat_q17_a",
@@ -467,7 +467,7 @@ export const AFPSAT_BANK = {
       "qnum": 18,
       "category": "Abstract Reasoning",
       "question": "18. Which figure completes the statement?",
-      "image": "assets/afpsat/q18.png",
+      "image": "abstract/18.png",
       "choices": [
         {
           "id": "afpsat_q18_a",
@@ -494,7 +494,7 @@ export const AFPSAT_BANK = {
       "qnum": 19,
       "category": "Abstract Reasoning",
       "question": "19. Which figure completes the statement?",
-      "image": "assets/afpsat/q19.png",
+      "image": "abstract/19.png",
       "choices": [
         {
           "id": "afpsat_q19_a",
@@ -521,7 +521,7 @@ export const AFPSAT_BANK = {
       "qnum": 20,
       "category": "Abstract Reasoning",
       "question": "20. Which figure is the odd one out?",
-      "image": "assets/afpsat/q20.png",
+      "image": "abstract/20.png",
       "choices": [
         {
           "id": "afpsat_q20_a",
@@ -552,7 +552,7 @@ export const AFPSAT_BANK = {
       "qnum": 21,
       "category": "Abstract Reasoning",
       "question": "21. Which figure is the odd one out?",
-      "image": "assets/afpsat/q21.png",
+      "image": "abstract/21.png",
       "choices": [
         {
           "id": "afpsat_q21_a",
@@ -583,7 +583,7 @@ export const AFPSAT_BANK = {
       "qnum": 22,
       "category": "Abstract Reasoning",
       "question": "22. Which figure is the odd one out?",
-      "image": "assets/afpsat/q22.png",
+      "image": "abstract/22.png",
       "choices": [
         {
           "id": "afpsat_q22_a",
@@ -614,7 +614,7 @@ export const AFPSAT_BANK = {
       "qnum": 23,
       "category": "Abstract Reasoning",
       "question": "23. Which figure is the odd one out?",
-      "image": "assets/afpsat/q23.png",
+      "image": "abstract/23.png",
       "choices": [
         {
           "id": "afpsat_q23_a",
@@ -645,7 +645,7 @@ export const AFPSAT_BANK = {
       "qnum": 24,
       "category": "Abstract Reasoning",
       "question": "24. Which figure completes the statement?",
-      "image": "assets/afpsat/q24.png",
+      "image": "abstract/24.png",
       "choices": [
         {
           "id": "afpsat_q24_a",
@@ -672,7 +672,7 @@ export const AFPSAT_BANK = {
       "qnum": 25,
       "category": "Abstract Reasoning",
       "question": "25. Which figure is the odd one out?",
-      "image": "assets/afpsat/q25.png",
+      "image": "abstract/25.png",
       "choices": [
         {
           "id": "afpsat_q25_a",
@@ -703,7 +703,7 @@ export const AFPSAT_BANK = {
       "qnum": 26,
       "category": "Abstract Reasoning",
       "question": "26. Which figure is the odd one out?",
-      "image": "assets/afpsat/q26.png",
+      "image": "abstract/26.png",
       "choices": [
         {
           "id": "afpsat_q26_a",
@@ -734,7 +734,7 @@ export const AFPSAT_BANK = {
       "qnum": 27,
       "category": "Abstract Reasoning",
       "question": "27. Which figure is the odd one out?",
-      "image": "assets/afpsat/q27.png",
+      "image": "abstract/27.png",
       "choices": [
         {
           "id": "afpsat_q27_a",
@@ -765,7 +765,7 @@ export const AFPSAT_BANK = {
       "qnum": 28,
       "category": "Abstract Reasoning",
       "question": "28. Which figure is the odd one out?",
-      "image": "assets/afpsat/q28.png",
+      "image": "abstract/28.png",
       "choices": [
         {
           "id": "afpsat_q28_a",
@@ -796,7 +796,7 @@ export const AFPSAT_BANK = {
       "qnum": 29,
       "category": "Abstract Reasoning",
       "question": "29. Which figure is the odd one out?",
-      "image": "assets/afpsat/q29.png",
+      "image": "abstract/29.png",
       "choices": [
         {
           "id": "afpsat_q29_a",
@@ -827,7 +827,7 @@ export const AFPSAT_BANK = {
       "qnum": 30,
       "category": "Abstract Reasoning",
       "question": "30. Which figure completes the series?",
-      "image": "assets/afpsat/q30.png",
+      "image": "abstract/30.png",
       "choices": [
         {
           "id": "afpsat_q30_a",
@@ -854,7 +854,7 @@ export const AFPSAT_BANK = {
       "qnum": 31,
       "category": "Abstract Reasoning",
       "question": "31. Which figure completes the series?",
-      "image": "assets/afpsat/q31.png",
+      "image": "abstract/31.png",
       "choices": [
         {
           "id": "afpsat_q31_a",
@@ -881,7 +881,7 @@ export const AFPSAT_BANK = {
       "qnum": 32,
       "category": "Abstract Reasoning",
       "question": "32. Which figure is the odd one out?",
-      "image": "assets/afpsat/q32.png",
+      "image": "abstract/32.png",
       "choices": [
         {
           "id": "afpsat_q32_a",
@@ -912,7 +912,7 @@ export const AFPSAT_BANK = {
       "qnum": 33,
       "category": "Abstract Reasoning",
       "question": "33. Which figure completes the series?",
-      "image": "assets/afpsat/q33.png",
+      "image": "abstract/33.png",
       "choices": [
         {
           "id": "afpsat_q33_a",
@@ -939,7 +939,7 @@ export const AFPSAT_BANK = {
       "qnum": 34,
       "category": "Abstract Reasoning",
       "question": "34. Which figure completes the series?",
-      "image": "assets/afpsat/q34.png",
+      "image": "abstract/34.png",
       "choices": [
         {
           "id": "afpsat_q34_a",
@@ -966,7 +966,7 @@ export const AFPSAT_BANK = {
       "qnum": 35,
       "category": "Abstract Reasoning",
       "question": "35. Which figure belongs in neither group?",
-      "image": "assets/afpsat/q35.png",
+      "image": "abstract/35.png",
       "choices": [
         {
           "id": "afpsat_q35_a",
@@ -993,7 +993,7 @@ export const AFPSAT_BANK = {
       "qnum": 36,
       "category": "Abstract Reasoning",
       "question": "36. Which figure belongs in neither group?",
-      "image": "assets/afpsat/q36.png",
+      "image": "abstract/36.png",
       "choices": [
         {
           "id": "afpsat_q36_a",
@@ -1020,7 +1020,7 @@ export const AFPSAT_BANK = {
       "qnum": 37,
       "category": "Abstract Reasoning",
       "question": "37. Which figure is next in the series?",
-      "image": "assets/afpsat/q37.png",
+      "image": "abstract/37.png",
       "choices": [
         {
           "id": "afpsat_q37_a",
@@ -1047,7 +1047,7 @@ export const AFPSAT_BANK = {
       "qnum": 38,
       "category": "Abstract Reasoning",
       "question": "38. Which figure belongs in neither group?",
-      "image": "assets/afpsat/q38.png",
+      "image": "abstract/38.png",
       "choices": [
         {
           "id": "afpsat_q38_a",
@@ -1074,7 +1074,7 @@ export const AFPSAT_BANK = {
       "qnum": 39,
       "category": "Abstract Reasoning",
       "question": "39. Which figure belongs in neither group?",
-      "image": "assets/afpsat/q39.png",
+      "image": "abstract/39.png",
       "choices": [
         {
           "id": "afpsat_q39_a",
@@ -1101,7 +1101,7 @@ export const AFPSAT_BANK = {
       "qnum": 40,
       "category": "Abstract Reasoning",
       "question": "40. Which figure is next in the series?",
-      "image": "assets/afpsat/q40.png",
+      "image": "abstract/40.png",
       "choices": [
         {
           "id": "afpsat_q40_a",
@@ -1128,7 +1128,7 @@ export const AFPSAT_BANK = {
       "qnum": 41,
       "category": "Abstract Reasoning",
       "question": "41. Which figure is next in the series?",
-      "image": "assets/afpsat/q41.png",
+      "image": "abstract/41.png",
       "choices": [
         {
           "id": "afpsat_q41_a",
@@ -1155,7 +1155,7 @@ export const AFPSAT_BANK = {
       "qnum": 42,
       "category": "Abstract Reasoning",
       "question": "42. Which figure completes the grid?",
-      "image": "assets/afpsat/q42.png",
+      "image": "abstract/42.png",
       "choices": [
         {
           "id": "afpsat_q42_a",
@@ -1182,7 +1182,7 @@ export const AFPSAT_BANK = {
       "qnum": 43,
       "category": "Abstract Reasoning",
       "question": "43. Which figure completes the grid?",
-      "image": "assets/afpsat/q43.png",
+      "image": "abstract/43.png",
       "choices": [
         {
           "id": "afpsat_q43_a",
@@ -1209,7 +1209,7 @@ export const AFPSAT_BANK = {
       "qnum": 44,
       "category": "Abstract Reasoning",
       "question": "44. Which figure is next in the series?",
-      "image": "assets/afpsat/q44.png",
+      "image": "abstract/44.png",
       "choices": [
         {
           "id": "afpsat_q44_a",
@@ -1236,7 +1236,7 @@ export const AFPSAT_BANK = {
       "qnum": 45,
       "category": "Abstract Reasoning",
       "question": "45. Which figure completes the grid?",
-      "image": "assets/afpsat/q45.png",
+      "image": "abstract/45.png",
       "choices": [
         {
           "id": "afpsat_q45_a",
@@ -1263,7 +1263,7 @@ export const AFPSAT_BANK = {
       "qnum": 46,
       "category": "Abstract Reasoning",
       "question": "46. Which figure completes the grid?",
-      "image": "assets/afpsat/q46.png",
+      "image": "abstract/46.png",
       "choices": [
         {
           "id": "afpsat_q46_a",
@@ -1290,7 +1290,7 @@ export const AFPSAT_BANK = {
       "qnum": 47,
       "category": "Abstract Reasoning",
       "question": "47. Which figure is the odd one out?",
-      "image": "assets/afpsat/q47.png",
+      "image": "abstract/47.png",
       "choices": [
         {
           "id": "afpsat_q47_a",
@@ -1321,7 +1321,7 @@ export const AFPSAT_BANK = {
       "qnum": 48,
       "category": "Abstract Reasoning",
       "question": "48. Which figure is the odd one out?",
-      "image": "assets/afpsat/q48.png",
+      "image": "abstract/48.png",
       "choices": [
         {
           "id": "afpsat_q48_a",
@@ -1352,7 +1352,7 @@ export const AFPSAT_BANK = {
       "qnum": 49,
       "category": "Abstract Reasoning",
       "question": "49. Which figure is the odd one out?",
-      "image": "assets/afpsat/q49.png",
+      "image": "abstract/49.png",
       "choices": [
         {
           "id": "afpsat_q49_a",
@@ -1383,7 +1383,7 @@ export const AFPSAT_BANK = {
       "qnum": 50,
       "category": "Abstract Reasoning",
       "question": "50. Which figure is the odd one out?",
-      "image": "assets/afpsat/q50.png",
+      "image": "abstract/50.png",
       "choices": [
         {
           "id": "afpsat_q50_a",
