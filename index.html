@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="EXAMPRAC — Offline PAARCQE practice app with 100 questions, timed practice, mock exam, and memory training.">
+  <meta name="theme-color" content="#0d1b2a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="EXAMPRAC">
+  <title>EXAMPRAC — PAARCQE Practice</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════════
+     HOME SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-home" class="screen active">
+<!-- ════════════════════════════════════════════════════════════
+     HOME SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-home" class="screen active">
+  <header class="app-header">
+    <div class="logo">
+      <img src="assets/icons/icon-192.png" alt="EXAMPRAC Emblem" class="logo-img">
+      <div>
+        EXAMPRAC
+        <span class="header-subtitle">PAARCQE Reviewer</span>
+      </div>
+    </div>
+    <button class="btn btn-icon btn-secondary" onclick="EXAMPRAC.goSettings()" aria-label="Settings">⚙️</button>
+  </header>
+
+  <div class="home-hero">
+    <div class="hero-emblem-wrap">
+      <img src="assets/icons/icon-512.png" alt="Philippine Army ROTC Reviewer Crest" class="hero-emblem-img">
+    </div>
+    <div class="app-name">EXAMPRAC</div>
+    <div class="tagline">PAARCQE Offline Practice Reviewer 2026</div>
+    <div style="display:flex;align-items:center;justify-content:center;gap:0.5rem;flex-wrap:wrap;margin-top:0.75rem;">
+      <div id="offline-badge" class="offline-badge loading">⚡ Checking…</div>
+      <a href="EXAMPRAC.apk" download="EXAMPRAC.apk" class="apk-badge" title="Download Android APK">📲 Download APK</a>
+    </div>
+  </div>
+
+  <!-- Stats Dashboard -->
+  <div class="progress-dashboard">
+    <div class="stat-box">
+      <span class="stat-value" id="stat-answered">0</span>
+      <div class="stat-label">Answered</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value" id="stat-accuracy">0%</span>
+      <div class="stat-label">Accuracy</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value" id="stat-streak">0 🔥</span>
+      <div class="stat-label">Streak</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value" id="stat-mastered">0</span>
+      <div class="stat-label">Mastered</div>
+    </div>
+  </div>
+
+  <!-- Navigation Grid -->
+  <div class="nav-grid">
+    <div class="nav-card primary" onclick="EXAMPRAC.goPractice()">
+      <div class="nav-icon">🎯</div>
+      <div class="nav-title">Practice</div>
+      <div class="nav-sub">100 questions, steady order</div>
+    </div>
+    <div class="nav-card" onclick="EXAMPRAC.goExam()">
+      <div class="nav-icon">📝</div>
+      <div class="nav-title">Mock Exam</div>
+      <div class="nav-sub">Timed simulation</div>
+    </div>
+    <div class="nav-card" onclick="EXAMPRAC.goMemory()">
+      <div class="nav-icon">🧠</div>
+      <div class="nav-title">Memory Training</div>
+      <div class="nav-sub">Spaced repetition & recall</div>
+    </div>
+    <div class="nav-card" onclick="EXAMPRAC.goCategories()">
+      <div class="nav-icon">📚</div>
+      <div class="nav-title">Categories</div>
+      <div class="nav-sub">5 subjects</div>
+    </div>
+    <div class="nav-card" onclick="EXAMPRAC.goReview()">
+      <div class="nav-icon">🔴</div>
+      <div class="nav-title">Wrong Answers</div>
+      <div class="nav-sub">Review mistakes</div>
+    </div>
+    <div class="nav-card" onclick="EXAMPRAC.goProgress()">
+      <div class="nav-icon">📊</div>
+      <div class="nav-title">Progress</div>
+      <div class="nav-sub">Stats & history</div>
+    </div>
+  </div>
+
+  <p style="text-align:center;font-size:0.7rem;color:var(--text-muted);padding:1rem">
+    ⚠ Unofficial practice reviewer — not an official PAARCQE exam. Verify coverage with your ROTC unit.
+  </p>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     PRACTICE MODE SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-practice" class="screen">
+  <div class="screen-header">
+    <button class="btn btn-sm btn-secondary" onclick="EXAMPRAC.confirmExitPractice()" aria-label="Back to Home">← Home</button>
+    <div style="flex:1;text-align:center;">
+      <div style="font-weight:700;font-size:0.95rem;">Practice Mode</div>
+      <div style="font-size:0.72rem;color:var(--gold);" id="prac-q-num">Q1 of 100</div>
+    </div>
+    <div id="prac-timer" class="timer-display">⏱ --:--</div>
+  </div>
+
+  <div class="progress-bar-wrap">
+    <div id="prac-progress-fill" class="progress-bar-fill" style="width:0%"></div>
+  </div>
+
+  <div class="question-meta">
+    <span class="q-category" id="prac-category">Category</span>
+    <span style="font-size:0.75rem;color:var(--text-muted)">Steady 1–100 Order</span>
+  </div>
+
+  <div class="question-area">
+    <div class="question-card">
+      <p class="question-text" id="prac-question">Loading question…</p>
+    </div>
+    <div id="prac-choices" class="choices-list"></div>
+  </div>
+
+  <!-- Feedback panel (shown after submit) -->
+  <div id="prac-feedback" class="feedback-panel">
+    <div id="prac-feedback-result" class="feedback-result"></div>
+    <div id="prac-feedback-explain" class="feedback-explanation"></div>
+  </div>
+
+  <!-- Sticky controls -->
+  <div class="controls-row">
+    <button class="btn btn-secondary" id="btn-prac-prev" onclick="EXAMPRAC.practicePrev()">← Prev</button>
+    <button id="btn-prac-next" class="btn btn-primary" style="flex:1;" onclick="EXAMPRAC.practiceNext()">Submit Answer →</button>
+    <button id="btn-prac-continue" class="btn btn-primary" style="flex:1;display:none" onclick="EXAMPRAC.practiceContinue()">Continue →</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     MOCK EXAM SCREEN (With Collapsible Question Grid)
+════════════════════════════════════════════════════════════ -->
+<div id="screen-exam" class="screen">
+  <div class="exam-header-bar">
+    <button class="btn btn-sm btn-secondary" onclick="EXAMPRAC.confirmExitExam()" aria-label="Exit exam">← Home</button>
+    
+    <!-- Collapsible trigger: Less/More for Q1 to Q100 -->
+    <button class="exam-drawer-trigger" id="exam-drawer-trigger" onclick="EXAMPRAC.toggleExamNavDrawer()">
+      <span id="exam-q-num">Q1 / 100</span>
+      <span class="exam-drawer-badge" id="exam-drawer-badge">📋 Questions ▾</span>
+    </button>
+
+    <div id="exam-global-timer" class="exam-timer-global">00:00</div>
+    <button class="btn btn-primary btn-sm" onclick="EXAMPRAC.submitExam()">Finish</button>
+  </div>
+
+  <!-- Collapsible drawer for the 100 question grid (starts hidden so question is 100% visible!) -->
+  <div id="exam-nav-drawer" class="exam-nav-drawer" style="display:none;">
+    <div class="exam-drawer-header">
+      <div>
+        <div style="font-weight:700;font-size:0.88rem;color:var(--text-main);">Question Jump Grid (1–100)</div>
+        <div style="font-size:0.7rem;color:var(--text-muted);">Tap a number to view that question</div>
+      </div>
+      <button class="btn btn-xs btn-danger" onclick="EXAMPRAC.toggleExamNavDrawer()">✕ Close</button>
+    </div>
+    <div id="exam-nav-grid" class="exam-nav-grid"></div>
+  </div>
+
+  <div class="progress-bar-wrap">
+    <div id="exam-progress-fill" class="progress-bar-fill" style="width:0%"></div>
+  </div>
+
+  <div class="question-meta">
+    <span class="q-category" id="exam-category">Category</span>
+    <button id="btn-exam-flag" class="exam-flag-btn btn btn-sm btn-secondary" onclick="EXAMPRAC.toggleFlag()">🏳 Flag</button>
+  </div>
+
+  <div class="question-area">
+    <div class="question-card">
+      <p class="question-text" id="exam-question">Loading question…</p>
+    </div>
+    <div id="exam-choices" class="choices-list"></div>
+  </div>
+
+  <div class="controls-row">
+    <button class="btn btn-secondary" onclick="EXAMPRAC.examPrev()">← Prev</button>
+    <button class="btn btn-primary" onclick="EXAMPRAC.examNext()">Next →</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     MEMORY TRAINING SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-memory" class="screen">
+  <div class="screen-header">
+    <button class="back-btn" onclick="EXAMPRAC.goHome()">←</button>
+    <h2>Memory Training</h2>
+  </div>
+
+  <div style="padding:1rem 1rem 0">
+    <p style="font-size:0.85rem">Choose a training mode to boost your recall and retention.</p>
+  </div>
+
+  <div class="memory-options">
+    <button class="memory-option-btn" onclick="EXAMPRAC.startMemoryMode('rapid')">
+      <span class="memory-opt-icon">⚡</span>
+      <div class="memory-opt-text">
+        <h3>Rapid Recall</h3>
+        <p>All 100 questions, randomized, with immediate feedback</p>
+      </div>
+    </button>
+    <button class="memory-option-btn" onclick="EXAMPRAC.startMemoryMode('mistakes')">
+      <span class="memory-opt-icon">🔴</span>
+      <div class="memory-opt-text">
+        <h3>Mistake Review</h3>
+        <p>Focus only on questions you've answered incorrectly</p>
+      </div>
+    </button>
+    <button class="memory-option-btn" onclick="EXAMPRAC.startMemoryMode('repeat')">
+      <span class="memory-opt-icon">🔁</span>
+      <div class="memory-opt-text">
+        <h3>Repeat Until Correct</h3>
+        <p>Missed questions repeat at the end until answered correctly</p>
+      </div>
+    </button>
+    <button class="memory-option-btn" onclick="EXAMPRAC.startMemoryMode('flashcard')">
+      <span class="memory-opt-icon">💡</span>
+      <div class="memory-opt-text">
+        <h3>Quick Review (Flashcards)</h3>
+        <p>Active recall mode: test yourself then reveal the answer</p>
+      </div>
+    </button>
+    <button class="memory-option-btn" onclick="EXAMPRAC.startMemoryMode('spaced')">
+      <span class="memory-opt-icon">📅</span>
+      <div class="memory-opt-text">
+        <h3>Spaced Repetition</h3>
+        <p>Practice questions due for review based on your history</p>
+      </div>
+    </button>
+    <button class="memory-option-btn" onclick="EXAMPRAC.goCategories()">
+      <span class="memory-opt-icon">📚</span>
+      <div class="memory-opt-text">
+        <h3>Category Drills</h3>
+        <p>Focus on one subject area at a time</p>
+      </div>
+    </button>
+  </div>
+
+  <div style="padding:0 1rem">
+    <div class="card" style="margin-top:0.5rem">
+      <h3 style="margin-bottom:0.5rem">How Spaced Repetition Works</h3>
+      <p style="font-size:0.82rem">Questions you answer correctly get scheduled further and further into the future. Questions you miss come back sooner. Answer 5 in a row correctly to mark a question as <span class="mastery-badge mastered">mastered</span>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     QUICK REVIEW / FLASHCARD SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-flashcard" class="screen">
+  <div class="screen-header">
+    <button class="back-btn" onclick="EXAMPRAC.goMemory()" aria-label="Back">←</button>
+    <h2>Quick Review (Flashcards)</h2>
+    <span class="q-counter" id="fc-counter">1/100</span>
+  </div>
+
+  <div class="progress-bar-wrap">
+    <div id="fc-progress-fill" class="progress-bar-fill" style="width:0%"></div>
+  </div>
+
+  <div class="question-area" style="max-width:640px;margin:1rem auto 0;">
+    <div class="card" style="padding:1.5rem;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;" onclick="EXAMPRAC.toggleFlashcardReveal()">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem;">
+          <span class="q-category" id="fc-category">Category</span>
+          <span style="font-size:0.75rem;color:var(--text-muted)">👆 Tap to flip</span>
+        </div>
+        <p class="question-text" id="fc-question" style="font-size:1.05rem;line-height:1.6;"></p>
+      </div>
+
+      <div id="fc-answer-container" style="display:none;margin-top:1.25rem;padding-top:1rem;border-top:1.5px dashed var(--gold);">
+        <div style="font-size:0.75rem;color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.35rem;">Correct Answer</div>
+        <div id="fc-answer-text" style="font-size:1.05rem;font-weight:700;color:var(--correct);"></div>
+        <div id="fc-explain-text" class="feedback-explanation" style="margin-top:0.6rem;"></div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:0.75rem;margin-top:1rem;">
+      <button class="btn btn-secondary" style="flex:1" onclick="EXAMPRAC.fcPrev()">← Previous</button>
+      <button class="btn btn-primary" id="fc-flip-btn" style="flex:1" onclick="EXAMPRAC.toggleFlashcardReveal()">💡 Reveal Answer</button>
+      <button class="btn btn-secondary" style="flex:1" onclick="EXAMPRAC.fcNext()">Next →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     CATEGORIES SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-categories" class="screen">
+  <div class="screen-header">
+    <button class="back-btn" onclick="EXAMPRAC.goHome()">←</button>
+    <h2>Category Practice</h2>
+  </div>
+  <div style="padding:0.75rem 1rem 0;font-size:0.82rem;color:var(--text-muted)">
+    Select a subject to practice its 20 questions independently.
+  </div>
+  <div id="category-list" class="category-list"></div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     REVIEW INCORRECT ANSWERS SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-review" class="screen">
+  <div class="screen-header">
+    <button class="back-btn" onclick="EXAMPRAC.goHome()">←</button>
+    <h2>Wrong Answers</h2>
+  </div>
+  <div id="review-filters" class="filter-bar"></div>
+  <div id="review-list" class="review-list" style="padding-top:0.75rem"></div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     RESULTS SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-results" class="screen">
+  <div class="screen-header">
+    <button class="back-btn" onclick="EXAMPRAC.goHome()">✕</button>
+    <h2>Session Results</h2>
+  </div>
+
+  <div class="results-hero">
+    <div class="score-circle">
+      <span class="score-pct" id="res-pct">0%</span>
+      <span class="score-pct-label">Score</span>
+    </div>
+    <div id="res-grade" style="font-weight:700;font-size:1rem;color:var(--text-main);margin-bottom:0.5rem"></div>
+  </div>
+
+  <div class="results-stats">
+    <div class="result-stat-box">
+      <div class="result-stat-val correct" id="res-correct">0</div>
+      <div class="result-stat-lbl">Correct</div>
+    </div>
+    <div class="result-stat-box">
+      <div class="result-stat-val wrong" id="res-incorrect">0</div>
+      <div class="result-stat-lbl">Incorrect</div>
+    </div>
+    <div class="result-stat-box">
+      <div class="result-stat-val neutral" id="res-unanswered">0</div>
+      <div class="result-stat-lbl">Skipped</div>
+    </div>
+    <div class="result-stat-box">
+      <div class="result-stat-val neutral" id="res-total">0</div>
+      <div class="result-stat-lbl">Total</div>
+    </div>
+  </div>
+
+  <div style="padding:0 1rem;display:flex;gap:0.6rem;flex-wrap:wrap;margin-bottom:1rem">
+    <button class="btn btn-primary" onclick="EXAMPRAC.retryPractice()">🔄 Practice Again</button>
+    <button class="btn btn-secondary" onclick="EXAMPRAC.goReview()">📋 Review Mistakes</button>
+    <button class="btn btn-secondary" onclick="EXAMPRAC.goHome()">🏠 Home</button>
+  </div>
+
+  <div style="padding:0 1rem">
+    <h3 style="font-size:0.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.75rem">
+      Question Review
+    </h3>
+  </div>
+  <div id="res-review-list" class="review-list"></div>
+  <div style="height:2rem"></div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     PROGRESS SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-progress" class="screen">
+  <div class="screen-header">
+    <button class="back-btn" onclick="EXAMPRAC.goHome()">←</button>
+    <h2>Study Progress</h2>
+  </div>
+
+  <div class="progress-dashboard" style="padding:1rem">
+    <div class="stat-box">
+      <span class="stat-value" id="prog-answered">0</span>
+      <div class="stat-label">Answered</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value correct" id="prog-correct">0</span>
+      <div class="stat-label">Correct</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value wrong" id="prog-incorrect">0</span>
+      <div class="stat-label">Incorrect</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value" id="prog-accuracy">0%</span>
+      <div class="stat-label">Accuracy</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value" id="prog-streak">0🔥</span>
+      <div class="stat-label">Streak</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value" id="prog-best">0%</span>
+      <div class="stat-label">Best Score</div>
+    </div>
+  </div>
+
+  <div class="progress-section">
+    <h3>Category Breakdown</h3>
+    <div id="prog-cats"></div>
+    <h3>Recent Sessions</h3>
+    <div id="prog-sessions"></div>
+  </div>
+
+  <div style="padding:0 1rem 2rem;display:flex;gap:0.6rem;flex-wrap:wrap">
+    <button class="btn btn-secondary" onclick="EXAMPRAC.exportProgress()">📤 Export</button>
+    <button class="btn btn-secondary" onclick="EXAMPRAC.importProgress()">📥 Import</button>
+    <button class="btn btn-danger" onclick="EXAMPRAC.confirmReset()">🗑 Reset</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     SETTINGS SCREEN
+════════════════════════════════════════════════════════════ -->
+<div id="screen-settings" class="screen">
+  <div class="screen-header">
+    <button class="back-btn" onclick="EXAMPRAC.goHome()">←</button>
+    <h2>Settings</h2>
+  </div>
+
+  <div class="settings-list">
+    <div class="settings-section-title">Timer</div>
+    <div class="settings-item">
+      <div>
+        <div class="settings-item-label">Question Timer</div>
+        <div class="settings-item-sub">Seconds per question (0 = no timer)</div>
+      </div>
+      <select id="set-timer" class="settings-select">
+        <option value="0">No Timer</option>
+        <option value="15">15 seconds</option>
+        <option value="30">30 seconds</option>
+        <option value="45">45 seconds</option>
+        <option value="60">60 seconds</option>
+      </select>
+    </div>
+
+    <div class="settings-section-title">Mock Exam</div>
+    <div class="settings-item">
+      <div>
+        <div class="settings-item-label">Exam Duration</div>
+        <div class="settings-item-sub">Total minutes for mock exam</div>
+      </div>
+      <select id="set-exam-mins" class="settings-select">
+        <option value="60">60 min</option>
+        <option value="90">90 min</option>
+        <option value="120">120 min</option>
+        <option value="150">150 min</option>
+      </select>
+    </div>
+    <div class="settings-item">
+      <div>
+        <div class="settings-item-label">Questions per Exam</div>
+        <div class="settings-item-sub">Number of questions in mock exam</div>
+      </div>
+      <select id="set-exam-qs" class="settings-select">
+        <option value="20">20</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+    </div>
+
+    <div class="settings-section-title">Feedback</div>
+    <div class="settings-item">
+      <div>
+        <div class="settings-item-label">Show Explanations</div>
+        <div class="settings-item-sub">Display memory tips after each answer</div>
+      </div>
+      <button id="set-explain" class="toggle-switch on" onclick="EXAMPRAC.toggleExplain()"></button>
+    </div>
+    <div class="settings-item">
+      <div>
+        <div class="settings-item-label">Sound Effects</div>
+        <div class="settings-item-sub">Audio feedback on correct/wrong answers</div>
+      </div>
+      <button id="set-sound" class="toggle-switch" onclick="EXAMPRAC.toggleSound()"></button>
+    </div>
+    <div class="settings-item">
+      <div>
+        <div class="settings-item-label">Haptic Feedback</div>
+        <div class="settings-item-sub">Vibration on answer submission</div>
+      </div>
+      <button id="set-haptic" class="toggle-switch on" onclick="EXAMPRAC.toggleHaptic()"></button>
+    </div>
+
+    <div class="settings-section-title">Display</div>
+    <div class="settings-item">
+      <div>
+        <div class="settings-item-label">Theme</div>
+        <div class="settings-item-sub">Toggle between dark and light mode</div>
+      </div>
+      <button id="btn-toggle-theme" class="btn btn-secondary btn-sm" onclick="EXAMPRAC.toggleTheme()">☀️ Light</button>
+    </div>
+
+    <div class="settings-section-title">Progress</div>
+    <div class="settings-item" style="flex-direction:column;align-items:flex-start;gap:0.75rem">
+      <div class="settings-item-label">Backup & Restore</div>
+      <div style="display:flex;gap:0.5rem;flex-wrap:wrap">
+        <button class="btn btn-secondary btn-sm" onclick="EXAMPRAC.exportProgress()">📤 Export Progress</button>
+        <button class="btn btn-secondary btn-sm" onclick="EXAMPRAC.importProgress()">📥 Import Backup</button>
+      </div>
+    </div>
+    <div class="settings-item">
+      <div>
+        <div class="settings-item-label" style="color:var(--wrong)">Reset Progress</div>
+        <div class="settings-item-sub">Delete all history (cannot undo)</div>
+      </div>
+      <button class="btn btn-danger btn-sm" onclick="EXAMPRAC.confirmReset()">Reset</button>
+    </div>
+
+    <div class="settings-section-title">About</div>
+    <div class="card card-sm" style="margin-top:0">
+      <h3 style="margin-bottom:0.35rem">EXAMPRAC v1.0</h3>
+      <p style="font-size:0.8rem">Offline PAARCQE Practice Application • 100 Questions • 5 Categories</p>
+      <p style="font-size:0.75rem;margin-top:0.5rem;color:var(--text-muted)">
+        This is an <strong>unofficial</strong> practice reviewer. It is not an official, verified, or leaked PAARCQE examination.
+        Verify current exam coverage with your ROTC unit.
+      </p>
+    </div>
+
+    <button class="btn btn-primary btn-full" style="margin-top:1rem" onclick="EXAMPRAC.saveSettings()">
+      💾 Save Settings
+    </button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     MODAL OVERLAY
+════════════════════════════════════════════════════════════ -->
+<div id="modal-overlay" class="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-title" id="modal-title">Confirm</div>
+    <div class="modal-body"  id="modal-body">Are you sure?</div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" id="modal-cancel">Cancel</button>
+      <button class="btn btn-danger"    id="modal-confirm">Confirm</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast"></div>
+
+<!-- Bottom Navigation Bar -->
+<nav id="bottom-nav" class="bottom-nav" aria-label="Quick Navigation">
+  <button class="bnav-item active" data-screen="screen-home" onclick="EXAMPRAC.goHome()" aria-label="Home">
+    <span class="bnav-icon">🏠</span>
+    <span class="bnav-label">Home</span>
+  </button>
+  <button class="bnav-item" data-screen="screen-practice" onclick="EXAMPRAC.goPractice()" aria-label="Practice">
+    <span class="bnav-icon">🎯</span>
+    <span class="bnav-label">Practice</span>
+  </button>
+  <button class="bnav-item" data-screen="screen-exam" onclick="EXAMPRAC.goExam()" aria-label="Mock Exam">
+    <span class="bnav-icon">📝</span>
+    <span class="bnav-label">Exam</span>
+  </button>
+  <button class="bnav-item" data-screen="screen-review" onclick="EXAMPRAC.goReview()" aria-label="Wrong Answers">
+    <span class="bnav-icon">🔴</span>
+    <span class="bnav-label">Mistakes</span>
+  </button>
+  <button class="bnav-item" data-screen="screen-progress" onclick="EXAMPRAC.goProgress()" aria-label="Progress">
+    <span class="bnav-icon">📊</span>
+    <span class="bnav-label">Progress</span>
+  </button>
+</nav>
+
+<!-- Canvas for celebratory victory confetti -->
+<canvas id="confetti-canvas" style="position:fixed;inset:0;pointer-events:none;z-index:9999;display:none;width:100%;height:100%;"></canvas>
+
+<!-- Service Worker Registration -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js').catch(console.warn);
+  }
+</script>
+
+<!-- Main App (ES Module) -->
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+{
+  "name": "EXAMPRAC — PAARCQE Practice",
+  "short_name": "EXAMPRAC",
+  "description": "Offline PAARCQE practice app with 100 questions, timed practice, mock exam, and memory training.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d1b2a",
+  "theme_color": "#0d1b2a",
+  "lang": "en",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

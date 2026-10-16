@@ -1,0 +1,9 @@
+{
+  "appId": "com.examprac.paarcqe",
+  "appName": "EXAMPRAC",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
+

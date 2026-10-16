@@ -1,0 +1,2706 @@
+{
+  "version": 1,
+  "total": 100,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "category": "English Proficiency",
+      "question": "Which word is closest in meaning to brave?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cowardly"
+        },
+        {
+          "id": "B",
+          "text": "Courageous"
+        },
+        {
+          "id": "C",
+          "text": "Weak"
+        },
+        {
+          "id": "D",
+          "text": "Careless"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Courageous",
+      "explanation": "Brave means courageous — having the courage to face danger or difficulty."
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "category": "English Proficiency",
+      "question": "What is the opposite of discipline?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Order"
+        },
+        {
+          "id": "B",
+          "text": "Control"
+        },
+        {
+          "id": "C",
+          "text": "Disorder"
+        },
+        {
+          "id": "D",
+          "text": "Respect"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Disorder",
+      "explanation": "Discipline means orderly conduct; its opposite is disorder (chaos)."
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "category": "English Proficiency",
+      "question": "Choose the grammatically correct sentence.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The cadets is ready."
+        },
+        {
+          "id": "B",
+          "text": "The cadets are ready."
+        },
+        {
+          "id": "C",
+          "text": "The cadets was ready."
+        },
+        {
+          "id": "D",
+          "text": "The cadets be ready."
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "The cadets are ready.",
+      "explanation": "'The cadets ARE ready' — cadets is plural, so use 'are'."
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "category": "English Proficiency",
+      "question": "What is the past tense of lead?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Leaded"
+        },
+        {
+          "id": "B",
+          "text": "Leading"
+        },
+        {
+          "id": "C",
+          "text": "Led"
+        },
+        {
+          "id": "D",
+          "text": "Leads"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Led",
+      "explanation": "The past tense of 'lead' is 'led', not 'leaded'."
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "category": "English Proficiency",
+      "question": "Complete: “Every cadet ___ required to attend.”",
+      "choices": [
+        {
+          "id": "A",
+          "text": "are"
+        },
+        {
+          "id": "B",
+          "text": "is"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "be"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "is",
+      "explanation": "'Every cadet IS required' — 'every' takes a singular verb."
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "category": "English Proficiency",
+      "question": "What does obedient mean?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Willing to follow lawful instructions"
+        },
+        {
+          "id": "B",
+          "text": "Refusing every instruction"
+        },
+        {
+          "id": "C",
+          "text": "Ignoring responsibilities"
+        },
+        {
+          "id": "D",
+          "text": "Avoiding teamwork"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Willing to follow lawful instructions",
+      "explanation": "Obedient means willing to follow lawful instructions."
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "category": "English Proficiency",
+      "question": "Which word is spelled correctly?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Disipline"
+        },
+        {
+          "id": "B",
+          "text": "Discipline"
+        },
+        {
+          "id": "C",
+          "text": "Disciplin"
+        },
+        {
+          "id": "D",
+          "text": "Descipline"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Discipline",
+      "explanation": "The correct spelling is 'Discipline'."
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "category": "English Proficiency",
+      "question": "Complete: “The cadet studied hard ___ pass the examination.”",
+      "choices": [
+        {
+          "id": "A",
+          "text": "because"
+        },
+        {
+          "id": "B",
+          "text": "so that to"
+        },
+        {
+          "id": "C",
+          "text": "in order to"
+        },
+        {
+          "id": "D",
+          "text": "despite"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "in order to",
+      "explanation": "'In order to' expresses purpose — studied hard in order to pass."
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "category": "English Proficiency",
+      "question": "What is the plural of child?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Childs"
+        },
+        {
+          "id": "B",
+          "text": "Childes"
+        },
+        {
+          "id": "C",
+          "text": "Children"
+        },
+        {
+          "id": "D",
+          "text": "Childrens"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Children",
+      "explanation": "The plural of 'child' is 'children' (irregular plural)."
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "category": "English Proficiency",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He don't follow instructions."
+        },
+        {
+          "id": "B",
+          "text": "He doesn't follows instructions."
+        },
+        {
+          "id": "C",
+          "text": "He doesn't follow instructions."
+        },
+        {
+          "id": "D",
+          "text": "He not follow instructions."
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "He doesn't follow instructions.",
+      "explanation": "Correct: 'He doesn't follow instructions.' — third-person singular negative."
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "category": "English Proficiency",
+      "question": "What does integrity mean?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Honesty and strong moral principles"
+        },
+        {
+          "id": "B",
+          "text": "Physical strength only"
+        },
+        {
+          "id": "C",
+          "text": "Wealth and popularity"
+        },
+        {
+          "id": "D",
+          "text": "Speed in completing a task"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Honesty and strong moral principles",
+      "explanation": "Integrity means honesty and strong moral principles."
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "category": "English Proficiency",
+      "question": "Which word is a synonym of rapid?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Slow"
+        },
+        {
+          "id": "B",
+          "text": "Quick"
+        },
+        {
+          "id": "C",
+          "text": "Weak"
+        },
+        {
+          "id": "D",
+          "text": "Late"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Quick",
+      "explanation": "Rapid means fast/quick; a synonym is 'quick'."
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "category": "English Proficiency",
+      "question": "Complete: “Neither the officer nor the cadets ___ late.”",
+      "choices": [
+        {
+          "id": "A",
+          "text": "is"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "are"
+        },
+        {
+          "id": "D",
+          "text": "has"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "are",
+      "explanation": "With 'neither...nor', the verb agrees with the noun closest to it — 'cadets' (plural) → 'are'."
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "category": "English Proficiency",
+      "question": "Choose the correct spelling.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Responsibilty"
+        },
+        {
+          "id": "B",
+          "text": "Responsibility"
+        },
+        {
+          "id": "C",
+          "text": "Responsibillity"
+        },
+        {
+          "id": "D",
+          "text": "Responsability"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Responsibility",
+      "explanation": "Correct spelling: 'Responsibility'."
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "category": "English Proficiency",
+      "question": "What is the opposite of victory?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Success"
+        },
+        {
+          "id": "B",
+          "text": "Achievement"
+        },
+        {
+          "id": "C",
+          "text": "Defeat"
+        },
+        {
+          "id": "D",
+          "text": "Progress"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Defeat",
+      "explanation": "The opposite of victory is defeat."
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "category": "English Proficiency",
+      "question": "“The cadet remained calm under pressure.” What does calm mean?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Peaceful and composed"
+        },
+        {
+          "id": "B",
+          "text": "Angry"
+        },
+        {
+          "id": "C",
+          "text": "Confused"
+        },
+        {
+          "id": "D",
+          "text": "Careless"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Peaceful and composed",
+      "explanation": "Calm means peaceful and composed."
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "category": "English Proficiency",
+      "question": "Complete: “The team worked ___ to finish the task.”",
+      "choices": [
+        {
+          "id": "A",
+          "text": "together"
+        },
+        {
+          "id": "B",
+          "text": "togetherly"
+        },
+        {
+          "id": "C",
+          "text": "togethers"
+        },
+        {
+          "id": "D",
+          "text": "togetherness"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "together",
+      "explanation": "'Together' is the adverb form — 'worked together'."
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "category": "English Proficiency",
+      "question": "What is the main purpose of a paragraph’s topic sentence?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Introduce its main idea"
+        },
+        {
+          "id": "B",
+          "text": "List every source"
+        },
+        {
+          "id": "C",
+          "text": "End the whole essay"
+        },
+        {
+          "id": "D",
+          "text": "Provide only examples"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Introduce its main idea",
+      "explanation": "A topic sentence introduces the main idea of a paragraph."
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "category": "English Proficiency",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Their going to training."
+        },
+        {
+          "id": "B",
+          "text": "There going to training."
+        },
+        {
+          "id": "C",
+          "text": "They’re going to training."
+        },
+        {
+          "id": "D",
+          "text": "They going to training."
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "They’re going to training.",
+      "explanation": "'They're' = they are — 'They're going to training'."
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "category": "English Proficiency",
+      "question": "Read: “Regular practice improves performance because it develops skill and confidence.” What is the main idea?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Practice is unnecessary."
+        },
+        {
+          "id": "B",
+          "text": "Practice can improve performance."
+        },
+        {
+          "id": "C",
+          "text": "Confidence is always automatic."
+        },
+        {
+          "id": "D",
+          "text": "Skills cannot be developed."
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Practice can improve performance.",
+      "explanation": "The main idea is that practice can improve performance."
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "category": "Mathematics",
+      "question": "What is 25 + 37?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "52"
+        },
+        {
+          "id": "B",
+          "text": "62"
+        },
+        {
+          "id": "C",
+          "text": "72"
+        },
+        {
+          "id": "D",
+          "text": "82"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "62",
+      "explanation": "25 + 37 = 62."
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "category": "Mathematics",
+      "question": "What is 144 ÷ 12?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "11"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "14"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "12",
+      "explanation": "144 ÷ 12 = 12."
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "category": "Mathematics",
+      "question": "What is 15 × 8?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "100"
+        },
+        {
+          "id": "B",
+          "text": "110"
+        },
+        {
+          "id": "C",
+          "text": "120"
+        },
+        {
+          "id": "D",
+          "text": "130"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "120",
+      "explanation": "15 × 8 = 120."
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "category": "Mathematics",
+      "question": "What is 3/4 expressed as a percentage?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "25%"
+        },
+        {
+          "id": "B",
+          "text": "50%"
+        },
+        {
+          "id": "C",
+          "text": "75%"
+        },
+        {
+          "id": "D",
+          "text": "80%"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "75%",
+      "explanation": "3/4 = 0.75 = 75%."
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "category": "Mathematics",
+      "question": "A cadet runs 2 km each day for 5 days. How many kilometers does the cadet run?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5 km"
+        },
+        {
+          "id": "B",
+          "text": "7 km"
+        },
+        {
+          "id": "C",
+          "text": "10 km"
+        },
+        {
+          "id": "D",
+          "text": "12 km"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "10 km",
+      "explanation": "2 km × 5 days = 10 km."
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "category": "Mathematics",
+      "question": "Solve: x + 9 = 20.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "9"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "11"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "11",
+      "explanation": "x + 9 = 20 → x = 11."
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "category": "Mathematics",
+      "question": "Solve: 3x = 27.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "9",
+      "explanation": "3x = 27 → x = 9."
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "category": "Mathematics",
+      "question": "What is the average of 10, 20, and 30?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "25"
+        },
+        {
+          "id": "D",
+          "text": "30"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "20",
+      "explanation": "(10 + 20 + 30) / 3 = 60 / 3 = 20."
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "category": "Mathematics",
+      "question": "A bag costs ₱800 and has a 10% discount. What is the discount amount?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "₱40"
+        },
+        {
+          "id": "B",
+          "text": "₱60"
+        },
+        {
+          "id": "C",
+          "text": "₱80"
+        },
+        {
+          "id": "D",
+          "text": "₱100"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "₱80",
+      "explanation": "10% of ₱800 = ₱80."
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "category": "Mathematics",
+      "question": "What is the final price of the ₱800 bag after a 10% discount?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "₱700"
+        },
+        {
+          "id": "B",
+          "text": "₱720"
+        },
+        {
+          "id": "C",
+          "text": "₱740"
+        },
+        {
+          "id": "D",
+          "text": "₱780"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "₱720",
+      "explanation": "₱800 − ₱80 = ₱720."
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "category": "Mathematics",
+      "question": "A group has 40 cadets. If 25% are absent, how many are absent?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "10",
+      "explanation": "25% of 40 = 10 absent cadets."
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "category": "Mathematics",
+      "question": "What is the perimeter of a square with sides of 6 cm?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "12 cm"
+        },
+        {
+          "id": "B",
+          "text": "18 cm"
+        },
+        {
+          "id": "C",
+          "text": "24 cm"
+        },
+        {
+          "id": "D",
+          "text": "36 cm"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "24 cm",
+      "explanation": "Perimeter = 4 × 6 = 24 cm."
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "category": "Mathematics",
+      "question": "What is the area of a rectangle 8 m long and 5 m wide?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "13 m²"
+        },
+        {
+          "id": "B",
+          "text": "26 m²"
+        },
+        {
+          "id": "C",
+          "text": "40 m²"
+        },
+        {
+          "id": "D",
+          "text": "80 m²"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "40 m²",
+      "explanation": "Area = 8 × 5 = 40 m²."
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "category": "Mathematics",
+      "question": "Convert 2.5 hours into minutes.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "120"
+        },
+        {
+          "id": "B",
+          "text": "130"
+        },
+        {
+          "id": "C",
+          "text": "150"
+        },
+        {
+          "id": "D",
+          "text": "180"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "150",
+      "explanation": "2.5 hours × 60 = 150 minutes."
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "category": "Mathematics",
+      "question": "A vehicle travels 120 km in 3 hours. What is its average speed?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "30 km/h"
+        },
+        {
+          "id": "B",
+          "text": "40 km/h"
+        },
+        {
+          "id": "C",
+          "text": "50 km/h"
+        },
+        {
+          "id": "D",
+          "text": "60 km/h"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "40 km/h",
+      "explanation": "Speed = 120 km ÷ 3 h = 40 km/h."
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "category": "Mathematics",
+      "question": "What is 2⁵?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "16"
+        },
+        {
+          "id": "C",
+          "text": "25"
+        },
+        {
+          "id": "D",
+          "text": "32"
+        }
+      ],
+      "correctAnswer": "D",
+      "correctText": "32",
+      "explanation": "2⁵ = 2×2×2×2×2 = 32."
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "category": "Mathematics",
+      "question": "Simplify: 18 − 3 × 4.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "60"
+        },
+        {
+          "id": "D",
+          "text": "72"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "6",
+      "explanation": "PEMDAS: 18 − (3×4) = 18 − 12 = 6."
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "category": "Mathematics",
+      "question": "What is the ratio of 12 to 18 in simplest form?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1:2"
+        },
+        {
+          "id": "B",
+          "text": "2:3"
+        },
+        {
+          "id": "C",
+          "text": "3:4"
+        },
+        {
+          "id": "D",
+          "text": "4:5"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "2:3",
+      "explanation": "12:18 → divide both by 6 → 2:3."
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "category": "Mathematics",
+      "question": "If 4 notebooks cost ₱100, how much do 6 notebooks cost at the same price per notebook?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "₱125"
+        },
+        {
+          "id": "B",
+          "text": "₱150"
+        },
+        {
+          "id": "C",
+          "text": "₱175"
+        },
+        {
+          "id": "D",
+          "text": "₱200"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "₱150",
+      "explanation": "Price per notebook = ₱100÷4 = ₱25. 6 × ₱25 = ₱150."
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "category": "Mathematics",
+      "question": "A test has 50 questions. A student answers 40 correctly. What percentage is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "60%"
+        },
+        {
+          "id": "B",
+          "text": "70%"
+        },
+        {
+          "id": "C",
+          "text": "80%"
+        },
+        {
+          "id": "D",
+          "text": "90%"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "80%",
+      "explanation": "40/50 = 0.80 = 80%."
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "category": "Logical and Abstract Reasoning",
+      "question": "What number comes next? 2, 4, 6, 8, __",
+      "choices": [
+        {
+          "id": "A",
+          "text": "9"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "14"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "10",
+      "explanation": "Pattern: +2 each time. After 8 comes 10."
+    },
+    {
+      "id": 42,
+      "number": 42,
+      "category": "Logical and Abstract Reasoning",
+      "question": "What number comes next? 3, 6, 12, 24, __",
+      "choices": [
+        {
+          "id": "A",
+          "text": "30"
+        },
+        {
+          "id": "B",
+          "text": "36"
+        },
+        {
+          "id": "C",
+          "text": "42"
+        },
+        {
+          "id": "D",
+          "text": "48"
+        }
+      ],
+      "correctAnswer": "D",
+      "correctText": "48",
+      "explanation": "Pattern: ×2 each time. 24×2 = 48."
+    },
+    {
+      "id": 43,
+      "number": 43,
+      "category": "Logical and Abstract Reasoning",
+      "question": "Find the odd one out.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Apple"
+        },
+        {
+          "id": "B",
+          "text": "Mango"
+        },
+        {
+          "id": "C",
+          "text": "Banana"
+        },
+        {
+          "id": "D",
+          "text": "Carrot"
+        }
+      ],
+      "correctAnswer": "D",
+      "correctText": "Carrot",
+      "explanation": "Apple, mango, banana are fruits. Carrot is a vegetable — the odd one out."
+    },
+    {
+      "id": 44,
+      "number": 44,
+      "category": "Logical and Abstract Reasoning",
+      "question": "Book is to reading as fork is to __.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Writing"
+        },
+        {
+          "id": "B",
+          "text": "Eating"
+        },
+        {
+          "id": "C",
+          "text": "Sleeping"
+        },
+        {
+          "id": "D",
+          "text": "Running"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Eating",
+      "explanation": "Book is used for reading; fork is used for eating."
+    },
+    {
+      "id": 45,
+      "number": 45,
+      "category": "Logical and Abstract Reasoning",
+      "question": "All officers are leaders. Some leaders are teachers. Which statement must be true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "All teachers are officers."
+        },
+        {
+          "id": "B",
+          "text": "All officers are leaders."
+        },
+        {
+          "id": "C",
+          "text": "No officers are leaders."
+        },
+        {
+          "id": "D",
+          "text": "All leaders are officers."
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "All officers are leaders.",
+      "explanation": "'All officers are leaders' is directly stated as a premise."
+    },
+    {
+      "id": 46,
+      "number": 46,
+      "category": "Logical and Abstract Reasoning",
+      "question": "What letter comes next? A, C, E, G, __",
+      "choices": [
+        {
+          "id": "A",
+          "text": "H"
+        },
+        {
+          "id": "B",
+          "text": "I"
+        },
+        {
+          "id": "C",
+          "text": "J"
+        },
+        {
+          "id": "D",
+          "text": "K"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "I",
+      "explanation": "Skip one letter each time: A,C,E,G,I."
+    },
+    {
+      "id": 47,
+      "number": 47,
+      "category": "Logical and Abstract Reasoning",
+      "question": "If today is Monday, what day will it be after 10 days?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wednesday"
+        },
+        {
+          "id": "B",
+          "text": "Thursday"
+        },
+        {
+          "id": "C",
+          "text": "Friday"
+        },
+        {
+          "id": "D",
+          "text": "Saturday"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Thursday",
+      "explanation": "Monday + 10 days = Thursday (Mon+7=Mon, +3 more = Thursday)."
+    },
+    {
+      "id": 48,
+      "number": 48,
+      "category": "Logical and Abstract Reasoning",
+      "question": "Find the odd number out.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "9"
+        },
+        {
+          "id": "C",
+          "text": "16"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "correctAnswer": "D",
+      "correctText": "20",
+      "explanation": "4=2², 9=3², 16=4² are perfect squares. 20 is not."
+    },
+    {
+      "id": 49,
+      "number": 49,
+      "category": "Logical and Abstract Reasoning",
+      "question": "Hand is to glove as foot is to __.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hat"
+        },
+        {
+          "id": "B",
+          "text": "Sock"
+        },
+        {
+          "id": "C",
+          "text": "Shirt"
+        },
+        {
+          "id": "D",
+          "text": "Belt"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Sock",
+      "explanation": "Hand fits a glove; foot fits a sock."
+    },
+    {
+      "id": 50,
+      "number": 50,
+      "category": "Logical and Abstract Reasoning",
+      "question": "What comes next? 1, 4, 9, 16, __",
+      "choices": [
+        {
+          "id": "A",
+          "text": "20"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "25"
+        },
+        {
+          "id": "D",
+          "text": "36"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "25",
+      "explanation": "Pattern: perfect squares 1,4,9,16,25."
+    },
+    {
+      "id": 51,
+      "number": 51,
+      "category": "Logical and Abstract Reasoning",
+      "question": "If CAT is coded as DBU by shifting each letter forward one position, DOG becomes __.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "EPH"
+        },
+        {
+          "id": "B",
+          "text": "CNG"
+        },
+        {
+          "id": "C",
+          "text": "FQI"
+        },
+        {
+          "id": "D",
+          "text": "EOG"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "EPH",
+      "explanation": "Shift each letter forward 1: D→E, O→P, G→H → EPH."
+    },
+    {
+      "id": 52,
+      "number": 52,
+      "category": "Logical and Abstract Reasoning",
+      "question": "Ana is taller than Ben. Ben is taller than Carlo. Who is the shortest?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ana"
+        },
+        {
+          "id": "B",
+          "text": "Ben"
+        },
+        {
+          "id": "C",
+          "text": "Carlo"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Carlo",
+      "explanation": "Ana>Ben>Carlo → Carlo is shortest."
+    },
+    {
+      "id": 53,
+      "number": 53,
+      "category": "Logical and Abstract Reasoning",
+      "question": "Which does not belong?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kilometer"
+        },
+        {
+          "id": "B",
+          "text": "Meter"
+        },
+        {
+          "id": "C",
+          "text": "Centimeter"
+        },
+        {
+          "id": "D",
+          "text": "Kilogram"
+        }
+      ],
+      "correctAnswer": "D",
+      "correctText": "Kilogram",
+      "explanation": "Kilometer, meter, centimeter measure length. Kilogram measures mass — odd one out."
+    },
+    {
+      "id": 54,
+      "number": 54,
+      "category": "Logical and Abstract Reasoning",
+      "question": "What number comes next? 100, 90, 80, 70, __",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50"
+        },
+        {
+          "id": "B",
+          "text": "55"
+        },
+        {
+          "id": "C",
+          "text": "60"
+        },
+        {
+          "id": "D",
+          "text": "65"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "60",
+      "explanation": "Pattern: −10 each time. 70−10 = 60."
+    },
+    {
+      "id": 55,
+      "number": 55,
+      "category": "Logical and Abstract Reasoning",
+      "question": "If 5 machines make 5 items in 5 minutes, how long would 1 machine take to make 1 item at the same rate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 minute"
+        },
+        {
+          "id": "B",
+          "text": "5 minutes"
+        },
+        {
+          "id": "C",
+          "text": "10 minutes"
+        },
+        {
+          "id": "D",
+          "text": "25 minutes"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "5 minutes",
+      "explanation": "5 machines×5 items in 5 min means 1 machine makes 1 item in 5 min."
+    },
+    {
+      "id": 56,
+      "number": 56,
+      "category": "Logical and Abstract Reasoning",
+      "question": "All roses are flowers. Which statement follows?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "All flowers are roses."
+        },
+        {
+          "id": "B",
+          "text": "Roses are flowers."
+        },
+        {
+          "id": "C",
+          "text": "No roses are flowers."
+        },
+        {
+          "id": "D",
+          "text": "All plants are roses."
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Roses are flowers.",
+      "explanation": "'All roses are flowers' directly implies roses are flowers."
+    },
+    {
+      "id": 57,
+      "number": 57,
+      "category": "Logical and Abstract Reasoning",
+      "question": "What letter comes next? Z, X, V, T, __",
+      "choices": [
+        {
+          "id": "A",
+          "text": "R"
+        },
+        {
+          "id": "B",
+          "text": "S"
+        },
+        {
+          "id": "C",
+          "text": "Q"
+        },
+        {
+          "id": "D",
+          "text": "P"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "R",
+      "explanation": "Pattern: skip one letter backwards — Z,X,V,T,R."
+    },
+    {
+      "id": 58,
+      "number": 58,
+      "category": "Logical and Abstract Reasoning",
+      "question": "A clock shows 3:00. What is the angle between its hour and minute hands?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "45°"
+        },
+        {
+          "id": "B",
+          "text": "60°"
+        },
+        {
+          "id": "C",
+          "text": "90°"
+        },
+        {
+          "id": "D",
+          "text": "180°"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "90°",
+      "explanation": "At 3:00 the minute hand is at 12 and hour hand at 3 — 90° apart."
+    },
+    {
+      "id": 59,
+      "number": 59,
+      "category": "Logical and Abstract Reasoning",
+      "question": "Four cadets stand in a line. Ben is before Carlo, and Carlo is before Dan. Who must be before Dan?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ben only"
+        },
+        {
+          "id": "B",
+          "text": "Carlo only"
+        },
+        {
+          "id": "C",
+          "text": "Ben and Carlo"
+        },
+        {
+          "id": "D",
+          "text": "Nobody"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Ben and Carlo",
+      "explanation": "Ben is before Carlo and Carlo before Dan → both Ben AND Carlo are before Dan."
+    },
+    {
+      "id": 60,
+      "number": 60,
+      "category": "Logical and Abstract Reasoning",
+      "question": "A person faces north, turns right, then turns right again. Which direction is the person facing?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "North"
+        },
+        {
+          "id": "B",
+          "text": "South"
+        },
+        {
+          "id": "C",
+          "text": "East"
+        },
+        {
+          "id": "D",
+          "text": "West"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "South",
+      "explanation": "North → turn right = East → turn right again = South."
+    },
+    {
+      "id": 61,
+      "number": 61,
+      "category": "Philippine History and General Knowledge",
+      "question": "Who is widely recognized as the national hero of the Philippines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Andres Bonifacio"
+        },
+        {
+          "id": "B",
+          "text": "Jose Rizal"
+        },
+        {
+          "id": "C",
+          "text": "Emilio Aguinaldo"
+        },
+        {
+          "id": "D",
+          "text": "Apolinario Mabini"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Jose Rizal",
+      "explanation": "Jose Rizal is widely recognized as the national hero of the Philippines."
+    },
+    {
+      "id": 62,
+      "number": 62,
+      "category": "Philippine History and General Knowledge",
+      "question": "In what year was Philippine independence declared in Kawit, Cavite?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1896"
+        },
+        {
+          "id": "B",
+          "text": "1898"
+        },
+        {
+          "id": "C",
+          "text": "1901"
+        },
+        {
+          "id": "D",
+          "text": "1946"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "1898",
+      "explanation": "Philippine independence was declared on June 12, 1898 in Kawit, Cavite."
+    },
+    {
+      "id": 63,
+      "number": 63,
+      "category": "Philippine History and General Knowledge",
+      "question": "Who wrote Noli Me Tangere?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Jose Rizal"
+        },
+        {
+          "id": "B",
+          "text": "Andres Bonifacio"
+        },
+        {
+          "id": "C",
+          "text": "Marcelo H. del Pilar"
+        },
+        {
+          "id": "D",
+          "text": "Emilio Jacinto"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Jose Rizal",
+      "explanation": "Noli Me Tangere was written by Jose Rizal."
+    },
+    {
+      "id": 64,
+      "number": 64,
+      "category": "Philippine History and General Knowledge",
+      "question": "Who founded the Katipunan with other revolutionary patriots and became its leading figure?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Jose Rizal"
+        },
+        {
+          "id": "B",
+          "text": "Andres Bonifacio"
+        },
+        {
+          "id": "C",
+          "text": "Manuel Quezon"
+        },
+        {
+          "id": "D",
+          "text": "Sergio Osmeña"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Andres Bonifacio",
+      "explanation": "Andres Bonifacio founded the Katipunan."
+    },
+    {
+      "id": 65,
+      "number": 65,
+      "category": "Philippine History and General Knowledge",
+      "question": "What is the national language of the Philippines, as provided by the Constitution?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "English"
+        },
+        {
+          "id": "B",
+          "text": "Spanish"
+        },
+        {
+          "id": "C",
+          "text": "Filipino"
+        },
+        {
+          "id": "D",
+          "text": "Latin"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Filipino",
+      "explanation": "The 1987 Constitution designates Filipino as the national language."
+    },
+    {
+      "id": 66,
+      "number": 66,
+      "category": "Philippine History and General Knowledge",
+      "question": "What is the national flower of the Philippines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Rose"
+        },
+        {
+          "id": "B",
+          "text": "Sampaguita"
+        },
+        {
+          "id": "C",
+          "text": "Gumamela"
+        },
+        {
+          "id": "D",
+          "text": "Orchid"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Sampaguita",
+      "explanation": "The national flower of the Philippines is the Sampaguita."
+    },
+    {
+      "id": 67,
+      "number": 67,
+      "category": "Philippine History and General Knowledge",
+      "question": "How many stars are on the Philippine flag?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Two"
+        },
+        {
+          "id": "B",
+          "text": "Three"
+        },
+        {
+          "id": "C",
+          "text": "Four"
+        },
+        {
+          "id": "D",
+          "text": "Five"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Three",
+      "explanation": "The Philippine flag has three stars."
+    },
+    {
+      "id": 68,
+      "number": 68,
+      "category": "Philippine History and General Knowledge",
+      "question": "What do the three stars on the Philippine flag represent?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Three branches of government"
+        },
+        {
+          "id": "B",
+          "text": "Luzon, Visayas, and Mindanao"
+        },
+        {
+          "id": "C",
+          "text": "Three national heroes"
+        },
+        {
+          "id": "D",
+          "text": "Three historical battles"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Luzon, Visayas, and Mindanao",
+      "explanation": "The three stars represent Luzon, Visayas, and Mindanao."
+    },
+    {
+      "id": 69,
+      "number": 69,
+      "category": "Philippine History and General Knowledge",
+      "question": "What is the highest law of the Philippines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Civil Code"
+        },
+        {
+          "id": "B",
+          "text": "1987 Constitution"
+        },
+        {
+          "id": "C",
+          "text": "Labor Code"
+        },
+        {
+          "id": "D",
+          "text": "Penal Code"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "1987 Constitution",
+      "explanation": "The highest law is the 1987 Constitution."
+    },
+    {
+      "id": 70,
+      "number": 70,
+      "category": "Philippine History and General Knowledge",
+      "question": "What is the capital of the Philippines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cebu City"
+        },
+        {
+          "id": "B",
+          "text": "Davao City"
+        },
+        {
+          "id": "C",
+          "text": "Manila"
+        },
+        {
+          "id": "D",
+          "text": "Baguio City"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Manila",
+      "explanation": "Manila is the capital of the Philippines."
+    },
+    {
+      "id": 71,
+      "number": 71,
+      "category": "Philippine History and General Knowledge",
+      "question": "What is the national anthem of the Philippines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Bayan Ko"
+        },
+        {
+          "id": "B",
+          "text": "Lupang Hinirang"
+        },
+        {
+          "id": "C",
+          "text": "Pilipinas Kong Mahal"
+        },
+        {
+          "id": "D",
+          "text": "Magkaisa"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Lupang Hinirang",
+      "explanation": "The national anthem is Lupang Hinirang."
+    },
+    {
+      "id": 72,
+      "number": 72,
+      "category": "Philippine History and General Knowledge",
+      "question": "Who was the first president of the First Philippine Republic?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Manuel Quezon"
+        },
+        {
+          "id": "B",
+          "text": "Emilio Aguinaldo"
+        },
+        {
+          "id": "C",
+          "text": "Ramon Magsaysay"
+        },
+        {
+          "id": "D",
+          "text": "Manuel Roxas"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Emilio Aguinaldo",
+      "explanation": "Emilio Aguinaldo was the first president of the First Philippine Republic."
+    },
+    {
+      "id": 73,
+      "number": 73,
+      "category": "Philippine History and General Knowledge",
+      "question": "On what date is Philippine Independence Day celebrated?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "June 12"
+        },
+        {
+          "id": "B",
+          "text": "June 19"
+        },
+        {
+          "id": "C",
+          "text": "August 21"
+        },
+        {
+          "id": "D",
+          "text": "December 30"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "June 12",
+      "explanation": "Philippine Independence Day is celebrated on June 12."
+    },
+    {
+      "id": 74,
+      "number": 74,
+      "category": "Philippine History and General Knowledge",
+      "question": "What is the currency of the Philippines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ringgit"
+        },
+        {
+          "id": "B",
+          "text": "Baht"
+        },
+        {
+          "id": "C",
+          "text": "Philippine peso"
+        },
+        {
+          "id": "D",
+          "text": "Yen"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Philippine peso",
+      "explanation": "The currency of the Philippines is the Philippine peso."
+    },
+    {
+      "id": 75,
+      "number": 75,
+      "category": "Philippine History and General Knowledge",
+      "question": "What is the legislative branch of the Philippine national government called?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congress"
+        },
+        {
+          "id": "B",
+          "text": "Supreme Court"
+        },
+        {
+          "id": "C",
+          "text": "Cabinet"
+        },
+        {
+          "id": "D",
+          "text": "Commission on Elections"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Congress",
+      "explanation": "The legislative branch is called Congress."
+    },
+    {
+      "id": 76,
+      "number": 76,
+      "category": "Philippine History and General Knowledge",
+      "question": "What are the two chambers of the Philippine Congress?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Senate and House of Representatives"
+        },
+        {
+          "id": "B",
+          "text": "Supreme Court and Senate"
+        },
+        {
+          "id": "C",
+          "text": "Cabinet and House of Representatives"
+        },
+        {
+          "id": "D",
+          "text": "Senate and Supreme Court"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Senate and House of Representatives",
+      "explanation": "Congress consists of the Senate and House of Representatives."
+    },
+    {
+      "id": 77,
+      "number": 77,
+      "category": "Philippine History and General Knowledge",
+      "question": "What is the smallest local government unit in the Philippines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Province"
+        },
+        {
+          "id": "B",
+          "text": "City"
+        },
+        {
+          "id": "C",
+          "text": "Municipality"
+        },
+        {
+          "id": "D",
+          "text": "Barangay"
+        }
+      ],
+      "correctAnswer": "D",
+      "correctText": "Barangay",
+      "explanation": "The smallest local government unit is the Barangay."
+    },
+    {
+      "id": 78,
+      "number": 78,
+      "category": "Philippine History and General Knowledge",
+      "question": "What does ASEAN stand for?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Association of Southeast Asian Nations"
+        },
+        {
+          "id": "B",
+          "text": "Asian Security and Economic Alliance Network"
+        },
+        {
+          "id": "C",
+          "text": "Association of Southern European and Asian Nations"
+        },
+        {
+          "id": "D",
+          "text": "Asian Education and Science Association Network"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Association of Southeast Asian Nations",
+      "explanation": "ASEAN = Association of Southeast Asian Nations."
+    },
+    {
+      "id": 79,
+      "number": 79,
+      "category": "Philippine History and General Knowledge",
+      "question": "What is the main purpose of the United Nations?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Promote international peace and cooperation"
+        },
+        {
+          "id": "B",
+          "text": "Control every country's government"
+        },
+        {
+          "id": "C",
+          "text": "Replace national constitutions"
+        },
+        {
+          "id": "D",
+          "text": "Manage all national elections"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Promote international peace and cooperation",
+      "explanation": "The UN's primary purpose is to promote international peace and cooperation."
+    },
+    {
+      "id": 80,
+      "number": 80,
+      "category": "Philippine History and General Knowledge",
+      "question": "Which body is primarily responsible for interpreting the Constitution and deciding cases within its jurisdiction in the Philippines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Senate"
+        },
+        {
+          "id": "B",
+          "text": "Supreme Court"
+        },
+        {
+          "id": "C",
+          "text": "Department of Education"
+        },
+        {
+          "id": "D",
+          "text": "Commission on Audit"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Supreme Court",
+      "explanation": "The Supreme Court is primarily responsible for interpreting the Constitution."
+    },
+    {
+      "id": 81,
+      "number": 81,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What does ROTC stand for?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reserve Officers’ Training Corps"
+        },
+        {
+          "id": "B",
+          "text": "Regional Operations Training Command"
+        },
+        {
+          "id": "C",
+          "text": "Reserve Operations Tactical Course"
+        },
+        {
+          "id": "D",
+          "text": "Regular Officers’ Tactical Corps"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Reserve Officers’ Training Corps",
+      "explanation": "ROTC = Reserve Officers' Training Corps."
+    },
+    {
+      "id": 82,
+      "number": 82,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What is one major purpose of ROTC?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eliminate academic education"
+        },
+        {
+          "id": "B",
+          "text": "Develop discipline, leadership, and preparedness for national defense"
+        },
+        {
+          "id": "C",
+          "text": "Guarantee military employment"
+        },
+        {
+          "id": "D",
+          "text": "Replace all civilian institutions"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Develop discipline, leadership, and preparedness for national defense",
+      "explanation": "ROTC develops discipline, leadership, and national defense preparedness."
+    },
+    {
+      "id": 83,
+      "number": 83,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What does the chain of command establish?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A system of authority and reporting"
+        },
+        {
+          "id": "B",
+          "text": "A list of personal hobbies"
+        },
+        {
+          "id": "C",
+          "text": "A method of physical exercise only"
+        },
+        {
+          "id": "D",
+          "text": "A system for academic grading"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "A system of authority and reporting",
+      "explanation": "The chain of command establishes a system of authority and reporting."
+    },
+    {
+      "id": 84,
+      "number": 84,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What should a cadet do when given a lawful instruction by an authorized superior?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore it"
+        },
+        {
+          "id": "B",
+          "text": "Follow it responsibly"
+        },
+        {
+          "id": "C",
+          "text": "Argue automatically"
+        },
+        {
+          "id": "D",
+          "text": "Leave the formation"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Follow it responsibly",
+      "explanation": "A cadet should follow a lawful instruction responsibly."
+    },
+    {
+      "id": 85,
+      "number": 85,
+      "category": "ROTC and Military Fundamentals",
+      "question": "Which quality is most important for a dependable cadet?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dishonesty"
+        },
+        {
+          "id": "B",
+          "text": "Negligence"
+        },
+        {
+          "id": "C",
+          "text": "Discipline"
+        },
+        {
+          "id": "D",
+          "text": "Selfishness"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Discipline",
+      "explanation": "Discipline is the most important quality for a dependable cadet."
+    },
+    {
+      "id": 86,
+      "number": 86,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What does military courtesy demonstrate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Respect and professionalism"
+        },
+        {
+          "id": "B",
+          "text": "Fear of every person"
+        },
+        {
+          "id": "C",
+          "text": "Personal wealth"
+        },
+        {
+          "id": "D",
+          "text": "Academic achievement alone"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Respect and professionalism",
+      "explanation": "Military courtesy demonstrates respect and professionalism."
+    },
+    {
+      "id": 87,
+      "number": 87,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What is the primary purpose of a formation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Organize personnel in an orderly arrangement"
+        },
+        {
+          "id": "B",
+          "text": "Allow everyone to move randomly"
+        },
+        {
+          "id": "C",
+          "text": "Replace all physical training"
+        },
+        {
+          "id": "D",
+          "text": "Conduct examinations only"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Organize personnel in an orderly arrangement",
+      "explanation": "A formation organizes personnel in an orderly arrangement."
+    },
+    {
+      "id": 88,
+      "number": 88,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What should you do if you notice a safety hazard during training?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ignore it"
+        },
+        {
+          "id": "B",
+          "text": "Warn others and report it to the appropriate instructor"
+        },
+        {
+          "id": "C",
+          "text": "Hide the hazard"
+        },
+        {
+          "id": "D",
+          "text": "Continue regardless of danger"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Warn others and report it to the appropriate instructor",
+      "explanation": "Warn others and report safety hazards to the appropriate instructor."
+    },
+    {
+      "id": 89,
+      "number": 89,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What does teamwork mean?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Working alone at all times"
+        },
+        {
+          "id": "B",
+          "text": "Cooperating toward a shared goal"
+        },
+        {
+          "id": "C",
+          "text": "Competing against every teammate"
+        },
+        {
+          "id": "D",
+          "text": "Avoiding assigned responsibilities"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Cooperating toward a shared goal",
+      "explanation": "Teamwork means cooperating toward a shared goal."
+    },
+    {
+      "id": 90,
+      "number": 90,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What is leadership?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Influencing and guiding people toward a goal"
+        },
+        {
+          "id": "B",
+          "text": "Giving orders without responsibility"
+        },
+        {
+          "id": "C",
+          "text": "Avoiding difficult decisions"
+        },
+        {
+          "id": "D",
+          "text": "Seeking personal recognition only"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Influencing and guiding people toward a goal",
+      "explanation": "Leadership is influencing and guiding people toward a goal."
+    },
+    {
+      "id": 91,
+      "number": 91,
+      "category": "ROTC and Military Fundamentals",
+      "question": "Why is punctuality important in ROTC?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It demonstrates reliability and respect for schedules"
+        },
+        {
+          "id": "B",
+          "text": "It eliminates the need for training"
+        },
+        {
+          "id": "C",
+          "text": "It guarantees promotion"
+        },
+        {
+          "id": "D",
+          "text": "It replaces discipline"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "It demonstrates reliability and respect for schedules",
+      "explanation": "Punctuality demonstrates reliability and respect for schedules."
+    },
+    {
+      "id": 92,
+      "number": 92,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What is the proper response when you make a mistake during training?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Blame another cadet"
+        },
+        {
+          "id": "B",
+          "text": "Hide the mistake"
+        },
+        {
+          "id": "C",
+          "text": "Acknowledge it, learn, and correct it"
+        },
+        {
+          "id": "D",
+          "text": "Refuse further instructions"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Acknowledge it, learn, and correct it",
+      "explanation": "Acknowledge a mistake, learn from it, and correct it."
+    },
+    {
+      "id": 93,
+      "number": 93,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What is the purpose of physical conditioning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Improve fitness and physical readiness"
+        },
+        {
+          "id": "B",
+          "text": "Replace academic learning"
+        },
+        {
+          "id": "C",
+          "text": "Avoid teamwork"
+        },
+        {
+          "id": "D",
+          "text": "Guarantee victory in every situation"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Improve fitness and physical readiness",
+      "explanation": "Physical conditioning improves fitness and physical readiness."
+    },
+    {
+      "id": 94,
+      "number": 94,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What does accountability mean?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Avoiding responsibility"
+        },
+        {
+          "id": "B",
+          "text": "Accepting responsibility for your actions"
+        },
+        {
+          "id": "C",
+          "text": "Blaming others"
+        },
+        {
+          "id": "D",
+          "text": "Ignoring rules"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Accepting responsibility for your actions",
+      "explanation": "Accountability means accepting responsibility for your actions."
+    },
+    {
+      "id": 95,
+      "number": 95,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What should a cadet do with confidential official information?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Post it publicly"
+        },
+        {
+          "id": "B",
+          "text": "Share it with anyone"
+        },
+        {
+          "id": "C",
+          "text": "Handle and protect it according to authorized rules"
+        },
+        {
+          "id": "D",
+          "text": "Send it to strangers"
+        }
+      ],
+      "correctAnswer": "C",
+      "correctText": "Handle and protect it according to authorized rules",
+      "explanation": "Confidential information must be handled and protected according to authorized rules."
+    },
+    {
+      "id": 96,
+      "number": 96,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What is the purpose of first aid?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Provide immediate assistance to an injured or ill person"
+        },
+        {
+          "id": "B",
+          "text": "Replace all medical professionals"
+        },
+        {
+          "id": "C",
+          "text": "Diagnose every disease"
+        },
+        {
+          "id": "D",
+          "text": "Avoid seeking emergency help"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Provide immediate assistance to an injured or ill person",
+      "explanation": "First aid provides immediate assistance to an injured or ill person."
+    },
+    {
+      "id": 97,
+      "number": 97,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What is the best response to an emergency instruction from an authorized safety officer?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Follow the instruction promptly and safely"
+        },
+        {
+          "id": "B",
+          "text": "Ignore it"
+        },
+        {
+          "id": "C",
+          "text": "Record a video first"
+        },
+        {
+          "id": "D",
+          "text": "Encourage others to disregard it"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Follow the instruction promptly and safely",
+      "explanation": "Follow an emergency instruction from a safety officer promptly and safely."
+    },
+    {
+      "id": 98,
+      "number": 98,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What does patriotism mean?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Responsible love and commitment to one's country"
+        },
+        {
+          "id": "B",
+          "text": "Disrespect for every other country"
+        },
+        {
+          "id": "C",
+          "text": "Ignoring national laws"
+        },
+        {
+          "id": "D",
+          "text": "Seeking personal benefits only"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Responsible love and commitment to one's country",
+      "explanation": "Patriotism means responsible love and commitment to one's country."
+    },
+    {
+      "id": 99,
+      "number": 99,
+      "category": "ROTC and Military Fundamentals",
+      "question": "Why is teamwork essential in military training?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Supports coordination and shared responsibility"
+        },
+        {
+          "id": "B",
+          "text": "Eliminates the need for communication"
+        },
+        {
+          "id": "C",
+          "text": "Makes discipline unnecessary"
+        },
+        {
+          "id": "D",
+          "text": "Prevents leaders from making decisions"
+        }
+      ],
+      "correctAnswer": "A",
+      "correctText": "Supports coordination and shared responsibility",
+      "explanation": "Teamwork supports coordination and shared responsibility."
+    },
+    {
+      "id": 100,
+      "number": 100,
+      "category": "ROTC and Military Fundamentals",
+      "question": "What is the best example of integrity in ROTC?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cheating when nobody is watching"
+        },
+        {
+          "id": "B",
+          "text": "Reporting honestly and following applicable rules even when unsupervised"
+        },
+        {
+          "id": "C",
+          "text": "Hiding a teammate’s dangerous misconduct"
+        },
+        {
+          "id": "D",
+          "text": "Taking credit for someone else’s work"
+        }
+      ],
+      "correctAnswer": "B",
+      "correctText": "Reporting honestly and following applicable rules even when unsupervised",
+      "explanation": "Integrity in ROTC means reporting honestly and following rules even when unsupervised."
+    }
+  ]
+}

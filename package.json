@@ -1,0 +1,30 @@
+{
+  "name": "examprac",
+  "version": "1.0.0",
+  "description": "EXAMPRAC — Offline PAARCQE Practice Reviewer App",
+  "main": "service-worker.js",
+  "type": "module",
+  "scripts": {
+    "build": "node copy-www.js",
+    "cap:add": "npm run build && npx cap add android",
+    "cap:sync": "npm run build && npx cap sync android",
+    "cap:open": "npx cap open android"
+  },
+  "keywords": [
+    "paarcqe",
+    "rotc",
+    "reviewer",
+    "examprac",
+    "offline",
+    "pwa",
+    "capacitor",
+    "android"
+  ],
+  "author": "EXAMPRAC",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3"
+  }
+}
